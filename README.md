@@ -1,21 +1,5 @@
-# Template for FrontLoops [Elements] challenge
+# Todo local storage
 
-Install all dependencies
-```bash
-npm i
-```
-
-For start watching all files use:
-```bash
-npm run start
-```
-
-then open in browser
-```bash
-http://localhost:1234/
-```
-
-For build all files use:
-```bash
-npm run build
-```
+Build a a form that adds a new task to the list.
+Tasks can be marked completed by clicking on them and reset by clicking the reset button.
+All changes should be saved after page reload.

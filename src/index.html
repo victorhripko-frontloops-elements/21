@@ -6,9 +6,21 @@
   <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon-32x32.png">
   <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon-16x16.png">
-  <title>Frontloops &mdash; ???</title>
+  <title>Frontloops &mdash; Todo local storage</title>
 </head>
 <body>
+
+  <div class="app">
+    <div class="app__header">
+      <input class="app__input js-input" type="text" placeholder="Enter task text">
+      <button class="app__button js-add-task" type="button">Add task</button>
+    </div>
+
+    <div class="app__body">
+      <button class="app__button js-reset-tasks" type="button">Reset tasks</button>
+      <div class="task-list"></div>
+    </div>
+  </div>
 
   <script src="./index.js"></script>
 </body>
